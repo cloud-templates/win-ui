@@ -3,7 +3,7 @@ module.exports = {
   build: {
     skipInstall: ['lazyload'],
     site: {
-      publicPath: 'https://b.yzcdn.cn/vant/',
+      publicPath: 'https://fulldev.winner123.cn/h5-win-ui/',
     },
     vetur: {
       tagPrefix: 'win-',
