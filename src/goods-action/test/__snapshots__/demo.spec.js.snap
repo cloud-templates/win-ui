@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-goods-action">
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-chat-o win-goods-action-icon__icon">
+          <!---->
+        </div>客服
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-cart-o win-goods-action-icon__icon">
+          <!---->
+        </div>购物车
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-shop-o win-goods-action-icon__icon">
+          <!---->
+        </div>店铺
+      </div> <button class="win-button win-button--danger win-button--large win-button--square win-goods-action-button win-goods-action-button--first win-goods-action-button--last win-goods-action-button--danger">
+        <div class="win-button__content"><span class="win-button__text">立即购买</span></div>
+      </button>
+    </div>
+  </div>
+  <div>
+    <div class="win-goods-action">
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-chat-o win-goods-action-icon__icon">
+          <div class="win-info win-info--dot"></div>
+        </div>客服
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-cart-o win-goods-action-icon__icon">
+          <div class="win-info">5</div>
+        </div>购物车
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-shop-o win-goods-action-icon__icon">
+          <div class="win-info">12</div>
+        </div>店铺
+      </div> <button class="win-button win-button--warning win-button--large win-button--square win-goods-action-button win-goods-action-button--first win-goods-action-button--warning">
+        <div class="win-button__content"><span class="win-button__text">加入购物车</span></div>
+      </button> <button class="win-button win-button--danger win-button--large win-button--square win-goods-action-button win-goods-action-button--last win-goods-action-button--danger">
+        <div class="win-button__content"><span class="win-button__text">立即购买</span></div>
+      </button>
+    </div>
+  </div>
+  <div>
+    <div class="win-goods-action">
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-chat-o win-goods-action-icon__icon" style="color: rgb(7, 193, 96);">
+          <!---->
+        </div>客服
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-cart-o win-goods-action-icon__icon">
+          <!---->
+        </div>购物车
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-star win-goods-action-icon__icon" style="color: rgb(255, 80, 0);">
+          <!---->
+        </div>已收藏
+      </div> <button class="win-button win-button--warning win-button--large win-button--square win-goods-action-button win-goods-action-button--first win-goods-action-button--warning">
+        <div class="win-button__content"><span class="win-button__text">加入购物车</span></div>
+      </button> <button class="win-button win-button--danger win-button--large win-button--square win-goods-action-button win-goods-action-button--last win-goods-action-button--danger">
+        <div class="win-button__content"><span class="win-button__text">立即购买</span></div>
+      </button>
+    </div>
+  </div>
+  <div>
+    <div class="win-goods-action">
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-chat-o win-goods-action-icon__icon">
+          <!---->
+        </div>客服
+      </div>
+      <div role="button" tabindex="0" class="win-goods-action-icon">
+        <div class="win-icon win-icon-cart-o win-goods-action-icon__icon">
+          <!---->
+        </div>购物车
+      </div> <button class="win-button win-button--warning win-button--large win-button--square win-goods-action-button win-goods-action-button--first win-goods-action-button--warning" style="color: rgb(255, 255, 255); background: rgb(190, 153, 255); border-color: #be99ff;">
+        <div class="win-button__content"><span class="win-button__text">加入购物车</span></div>
+      </button> <button class="win-button win-button--danger win-button--large win-button--square win-goods-action-button win-goods-action-button--last win-goods-action-button--danger" style="color: rgb(255, 255, 255); background: rgb(114, 50, 221); border-color: #7232dd;">
+        <div class="win-button__content"><span class="win-button__text">立即购买</span></div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

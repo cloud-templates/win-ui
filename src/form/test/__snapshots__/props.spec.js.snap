@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colon prop 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field">
+    <div class="win-cell__title win-field__label"><span>Label:</span></div>
+    <div class="win-cell__value win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    </div>
+  </div>
+  <div class="win-cell win-field">
+    <div class="win-cell__title win-field__label">Custom Label:</div>
+    <div class="win-cell__value win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`error-message-align prop 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+      <div class="win-field__error-message win-field__error-message--right">Error</div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`input-align prop 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control win-field__control--right"></div>
+    </div>
+  </div>
+  <div class="win-cell win-field">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body">
+        <div class="win-field__control win-field__control--right win-field__control--custom">
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`label-align prop 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field win-field--label-right">
+    <div class="win-cell__title win-field__label win-field__label--right"><span>Label</span></div>
+    <div class="win-cell__value win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    </div>
+  </div>
+  <div class="win-cell win-field win-field--label-center">
+    <div class="win-cell__title win-field__label win-field__label--center"><span>Label</span></div>
+    <div class="win-cell__value win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`label-width prop 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field">
+    <div class="win-cell__title win-field__label" style="width: 5rem;"><span>Label</span></div>
+    <div class="win-cell__value win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    </div>
+  </div>
+  <div class="win-cell win-field">
+    <div class="win-cell__title win-field__label" style="width: 10vw;"><span>Label</span></div>
+    <div class="win-cell__value win-field__value">
+      <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`validate-first prop 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field win-field--error">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body"><input type="text" name="A" class="win-field__control"></div>
+      <div class="win-field__error-message">A failed</div>
+    </div>
+  </div>
+  <div class="win-cell win-field">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body"><input type="text" name="B" class="win-field__control"></div>
+    </div>
+  </div> <button type="submit" class="win-button win-button--default win-button--normal">
+    <div class="win-button__content"></div>
+  </button>
+</form>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gutter prop 1`] = `
+<div tabindex="0" role="radiogroup" class="win-rate">
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="false" class="win-rate__item" style="padding-right: 10px;"><i data-score="1" class="win-icon win-icon-star-o win-rate__icon">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="false" class="win-rate__item" style="padding-right: 10px;"><i data-score="2" class="win-icon win-icon-star-o win-rate__icon">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="false" class="win-rate__item" style="padding-right: 10px;"><i data-score="3" class="win-icon win-icon-star-o win-rate__icon">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item" style="padding-right: 10px;"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`size prop 1`] = `
+<div tabindex="0" role="radiogroup" class="win-rate">
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="false" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star-o win-rate__icon" style="font-size: 2rem;">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="false" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star-o win-rate__icon" style="font-size: 2rem;">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="false" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star-o win-rate__icon" style="font-size: 2rem;">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon" style="font-size: 2rem;">
+      <!----></i></div>
+  <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon" style="font-size: 2rem;">
+      <!----></i></div>
+</div>
+`;

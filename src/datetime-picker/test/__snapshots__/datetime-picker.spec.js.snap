@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`time type 1`] = `
+<div class="win-picker win-datetime-picker">
+  <div class="win-picker__toolbar"><button type="button" class="win-picker__cancel">取消</button><button type="button" class="win-picker__confirm">确认</button></div>
+  <!---->
+  <div class="win-picker__columns" style="height: 220px;">
+    <div class="win-picker-column">
+      <ul class="win-picker-column__wrapper" style="transform: translate3d(0, 88px, 0); transition-duration: 0ms; transition-property: none;">
+        <li role="button" tabindex="0" class="win-picker-column__item win-picker-column__item--selected" style="height: 44px;">
+          <div class="win-ellipsis">22</div>
+        </li>
+        <li role="button" tabindex="0" class="win-picker-column__item" style="height: 44px;">
+          <div class="win-ellipsis">23</div>
+        </li>
+      </ul>
+    </div>
+    <div class="win-picker-column">
+      <ul class="win-picker-column__wrapper" style="transform: translate3d(0, 88px, 0); transition-duration: 0ms; transition-property: none;">
+        <li role="button" tabindex="0" class="win-picker-column__item win-picker-column__item--selected" style="height: 44px;">
+          <div class="win-ellipsis">58</div>
+        </li>
+        <li role="button" tabindex="0" class="win-picker-column__item" style="height: 44px;">
+          <div class="win-ellipsis">59</div>
+        </li>
+      </ul>
+    </div>
+    <div class="win-picker__mask" style="background-size: 100% 88px;"></div>
+    <div class="win-hairline-unset--top-bottom win-picker__frame" style="height: 44px;"></div>
+  </div>
+  <!---->
+</div>
+`;

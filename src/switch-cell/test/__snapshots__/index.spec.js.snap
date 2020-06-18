@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`border prop 1`] = `
+<div class="win-cell win-cell--center win-cell--borderless win-switch-cell">
+  <div class="win-cell__value win-cell__value--alone">
+    <div role="switch" aria-checked="false" class="win-switch" style="font-size: 24px;">
+      <div class="win-switch__node"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`cell-size prop 1`] = `
+<div class="win-cell win-cell--center win-cell--large win-switch-cell win-switch-cell--large">
+  <div class="win-cell__value win-cell__value--alone">
+    <div role="switch" aria-checked="false" class="win-switch" style="font-size: 24px;">
+      <div class="win-switch__node"></div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactList render 1`] = `
+<div class="win-contact-list">
+  <div role="radiogroup" class="win-radio-group win-contact-list__group">
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable win-cell--center win-contact-list__item"><i class="win-icon win-icon-edit win-contact-list__edit">
+        <!----></i>
+      <div class="win-cell__value win-cell__value--alone win-contact-list__item-value">test，123123213</div>
+      <div role="radio" tabindex="0" aria-checked="true" class="win-radio">
+        <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked" style="font-size: 16px;"><i class="win-icon win-icon-success" style="border-color: #ee0a24; background-color: rgb(238, 10, 36);">
+            <!----></i></div>
+      </div>
+    </div>
+  </div>
+  <div class="win-contact-list__bottom"><button class="win-button win-button--danger win-button--normal win-button--block win-button--round win-contact-list__add">
+      <div class="win-button__content"><span class="win-button__text">新建联系人</span></div>
+    </button></div>
+</div>
+`;

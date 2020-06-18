@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="sku-container">
+      <!----> <button class="win-button win-button--primary win-button--normal win-button--block">
+        <div class="win-button__content"><span class="win-button__text">
+        基础用法
+      </span></div>
+      </button></div>
+  </div>
+  <div>
+    <div class="sku-container">
+      <!----> <button class="win-button win-button--primary win-button--normal win-button--block">
+        <div class="win-button__content"><span class="win-button__text">
+        自定义步进器
+      </span></div>
+      </button></div>
+  </div>
+  <div>
+    <div class="sku-container">
+      <!----> <button class="win-button win-button--primary win-button--normal win-button--block">
+        <div class="win-button__content"><span class="win-button__text">
+        隐藏售罄规格
+      </span></div>
+      </button></div>
+  </div>
+  <div>
+    <div class="sku-container">
+      <!----> <button class="win-button win-button--primary win-button--normal win-button--block">
+        <div class="win-button__content"><span class="win-button__text">
+        高级用法
+      </span></div>
+      </button></div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create a forbidClick toast 1`] = `
+<div class="win-toast win-toast--middle win-toast--success" style="z-index: 2001;" name="win-fade"><i class="win-icon win-icon-success win-toast__icon">
+    <!----></i></div>
+`;
+
+exports[`icon prop 1`] = `
+<div class="win-toast win-toast--middle" style="z-index: 2005;" name="win-fade"><i class="win-icon win-icon-star-o win-toast__icon">
+    <!----></i>
+  <div class="win-toast__text">Message</div>
+</div>
+`;
+
+exports[`icon-prefix prop 1`] = `
+<div class="win-toast win-toast--middle" style="z-index: 2006;" name="win-fade"><i class="my-icon my-icon-star-o win-toast__icon">
+    <!----></i>
+  <div class="win-toast__text">Message</div>
+</div>
+`;
+
+exports[`show html toast 1`] = `
+<div class="win-toast win-toast--middle win-toast--html" style="z-index: 2004;" name="win-fade">
+  <div class="win-toast__text">
+    <div>Message</div>
+  </div>
+</div>
+`;
+
+exports[`show loading toast 1`] = `
+<div class="win-toast win-toast--middle win-toast--loading" style="z-index: 2003;" name="win-fade">
+  <div class="win-loading win-loading--circular win-toast__loading"><span class="win-loading__spinner win-loading__spinner--circular"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+  <div class="win-toast__text">Message</div>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unswitchable 1`] = `
+<div class="win-address-list">
+  <div role="radiogroup" class="win-radio-group">
+    <div class="win-address-item">
+      <div class="win-cell win-cell--borderless">
+        <div class="win-cell__value win-cell__value--alone win-address-item__value">
+          <div class="win-address-item__name">张三 13000000000</div>
+          <div class="win-address-item__address">浙江省杭州市西湖区文三路 138 号东方通信大厦 7 楼 501 室</div>
+        </div><i class="win-icon win-icon-edit win-address-item__edit">
+          <!----></i>
+      </div>
+    </div>
+    <div class="win-address-item">
+      <div class="win-cell win-cell--borderless">
+        <div class="win-cell__value win-cell__value--alone win-address-item__value">
+          <div class="win-address-item__name">李四 1310000000</div>
+          <div class="win-address-item__address">浙江省杭州市拱墅区莫干山路 50 号</div>
+        </div><i class="win-icon win-icon-edit win-address-item__edit">
+          <!----></i>
+      </div>
+    </div>
+  </div>
+  <div class="win-address-list__bottom"><button class="win-button win-button--danger win-button--normal win-button--block win-button--round win-address-list__add">
+      <div class="win-button__content"><span class="win-button__text">新增地址</span></div>
+    </button></div>
+</div>
+`;

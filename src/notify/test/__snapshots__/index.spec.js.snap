@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create a notify 1`] = `<div class="win-popup win-popup--top win-notify win-notify--danger" style="transition-duration: 0.2s; z-index: 2001;" name="win-popup-slide-top">test</div>`;
+
+exports[`notify disappear 1`] = `<div class="win-popup win-popup--top win-notify win-notify--danger" style="transition-duration: 0.2s; z-index: 2001; color: red; background: blue;" name="win-popup-slide-top">test</div>`;
+
+exports[`notify disappear 2`] = `<div class="win-popup win-popup--top win-notify win-notify--danger" style="transition-duration: 0.2s; z-index: 2001; color: red; background: blue; display: none;" name="win-popup-slide-top">test</div>`;
+
+exports[`notify disappear 3`] = `<div class="win-popup win-popup--top win-notify win-notify--danger" style="transition-duration: 0.2s; z-index: 2002;" name="win-popup-slide-top">text2</div>`;
+
+exports[`notify disappear 4`] = `<div class="win-popup win-popup--top win-notify win-notify--danger" style="transition-duration: 0.2s; z-index: 2002; display: none;" name="win-popup-slide-top">text2</div>`;
+
+exports[`type prop 1`] = `<div class="win-popup win-popup--top win-notify win-notify--primary" style="transition-duration: 0.2s; z-index: 2001;" name="win-popup-slide-top">test</div>`;

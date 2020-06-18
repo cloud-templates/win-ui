@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`click option 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">B</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">B</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-overlay" style="z-index: 2013; animation-duration: 0.2s; position: absolute;" name="win-fade"></div>
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s; display: none; z-index: 2014;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>A</span></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>B</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`close-on-click-outside 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s; display: none;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`destroy one item 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <!---->
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`didn\`t find matched option 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis"></div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis"></div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`direction up 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--up" style="bottom: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--up" style="bottom: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`direction up 2`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--active"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--up" style="bottom: 1000px;">
+      <div class="win-popup win-popup--bottom win-dropdown-item__content" style="transition-duration: 0.2s;" name="win-popup-slide-bottom">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--up" style="bottom: 1000px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`disable close-on-click-outside 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--active win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`disable dropdown item 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar">
+    <div role="button" tabindex="-1" class="win-dropdown-menu__item win-dropdown-menu__item--disabled"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`render option icon 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--active win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active"><i class="win-icon win-icon-success win-cell__left-icon">
+            <!----></i>
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option"><i class="win-icon win-icon-success win-cell__left-icon">
+            <!----></i>
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`show dropdown item 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--active win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`show dropdown item 2`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--active win-dropdown-menu__title--down"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0s; display: none;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`show dropdown item 3`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar win-dropdown-menu__bar--opened">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">A</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0s; display: none;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px;">
+      <div class="win-popup win-popup--top win-dropdown-item__content" style="transition-duration: 0.2s; display: none;" name="win-popup-slide-top">
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option win-dropdown-item__option--active">
+          <div class="win-cell__title"><span>A</span></div>
+          <div class="win-cell__value"><i class="win-icon win-icon-success win-dropdown-item__icon">
+              <!----></i></div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-dropdown-item__option">
+          <div class="win-cell__title"><span>B</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`title prop 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">Title</div></span></div>
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">Title</div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`title slot 1`] = `
+<div class="win-dropdown-menu">
+  <div class="win-dropdown-menu__bar">
+    <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">
+            Custom Title
+          </div></span></div>
+  </div>
+  <div>
+    <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+      <!---->
+    </div>
+  </div>
+</div>
+`;

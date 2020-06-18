@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cancel-text prop 1`] = `<button type="button" class="win-share-sheet__cancel">foo</button>`;
+
+exports[`description prop 1`] = `<span class="win-share-sheet__description">foo</span>`;
+
+exports[`title & description slot 1`] = `
+<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-share-sheet" name="win-popup-slide-bottom">
+  <div class="win-share-sheet__header">
+    <h2 class="win-share-sheet__title">Custom Title</h2><span class="win-share-sheet__description">Custom Description</span>
+  </div>
+  <div class="win-share-sheet__options"></div><button type="button" class="win-share-sheet__cancel">取消</button>
+</div>
+`;

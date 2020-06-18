@@ -1,0 +1,20 @@
+@import '../style/var';
+
+.win-col {
+  float: left;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+
+.generate-col(24);
+.generate-col(@n, @i: 1) when (@i =< @n) {
+  .win-col--@{i} {
+    width: @i * 100% / 24;
+  }
+
+  .win-col--offset-@{i} {
+    margin-left: @i * 100% / 24;
+  }
+
+  .generate-col(@n, (@i + 1));
+}

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arrow-direction prop 1`] = `
+<div role="button" tabindex="0" class="win-cell win-cell--clickable win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div><i class="win-icon win-icon-arrow-up win-cell__right-icon">
+    <!----></i>
+</div>
+`;
+
+exports[`clearable 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`clearable 2`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"><i class="win-icon win-icon-clear win-field__clear">
+        <!----></i></div>
+  </div>
+</div>
+`;
+
+exports[`colon prop 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__title win-field__label"><span>foo:</span></div>
+  <div class="win-cell__value win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`label-class prop 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__title win-field__label custom-label-class"><span>Label</span></div>
+  <div class="win-cell__value win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`label-width prop with unit 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__title win-field__label" style="width: 10rem;"><span>Label</span></div>
+  <div class="win-cell__value win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`label-width prop without unit 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__title win-field__label" style="width: 100px;"><span>Label</span></div>
+  <div class="win-cell__value win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`name prop 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" name="foo" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`reach max word-limit 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    <div class="win-field__word-limit"><span class="win-field__word-num win-field__word-num--full">3</span>/3</div>
+  </div>
+</div>
+`;
+
+exports[`reach max word-limit null 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    <div class="win-field__word-limit"><span class="win-field__word-num">0</span>/3</div>
+  </div>
+</div>
+`;
+
+exports[`reach max word-limit undefined 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+    <div class="win-field__word-limit"><span class="win-field__word-num">0</span>/3</div>
+  </div>
+</div>
+`;
+
+exports[`render extra slot 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>Extra
+</div>
+`;
+
+exports[`render input slot 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body">
+      <div class="win-field__control win-field__control--custom">Custom Input</div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`render label slot 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__title win-field__label">Custom Label</div>
+  <div class="win-cell__value win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;
+
+exports[`render textarea 1`] = `
+<div class="win-cell win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><textarea class="win-field__control" style="height: auto;"></textarea></div>
+  </div>
+</div>
+`;
+
+exports[`size prop 1`] = `
+<div class="win-cell win-cell--large win-field">
+  <div class="win-cell__value win-cell__value--alone win-field__value">
+    <div class="win-field__body"><input type="text" class="win-field__control"></div>
+  </div>
+</div>
+`;

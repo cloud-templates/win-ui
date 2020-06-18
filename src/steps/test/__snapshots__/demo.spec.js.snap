@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-steps win-steps--horizontal">
+      <div class="win-steps__items">
+        <div class="win-hairline win-step win-step--horizontal win-step--finish">
+          <div class="win-step__title">买家下单</div>
+          <div class="win-step__circle-container"><i class="win-step__circle"></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--horizontal win-step--process">
+          <div class="win-step__title win-step__title--active">商家接单</div>
+          <div class="win-step__circle-container"><i class="win-icon win-icon-checked win-step__icon win-step__icon--active">
+              <!----></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--horizontal">
+          <div class="win-step__title">买家提货</div>
+          <div class="win-step__circle-container"><i class="win-step__circle"></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--horizontal">
+          <div class="win-step__title">交易完成</div>
+          <div class="win-step__circle-container"><i class="win-step__circle"></i></div>
+          <div class="win-step__line"></div>
+        </div>
+      </div>
+    </div> <button class="win-button win-button--default win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">下一步</span></div>
+    </button>
+  </div>
+  <div>
+    <div class="win-steps win-steps--horizontal">
+      <div class="win-steps__items">
+        <div class="win-hairline win-step win-step--horizontal win-step--finish">
+          <div class="win-step__title">买家下单</div>
+          <div class="win-step__circle-container"><i class="win-icon win-icon-arrow win-step__icon">
+              <!----></i></div>
+          <div class="win-step__line" style="background: rgb(51, 136, 255);"></div>
+        </div>
+        <div class="win-hairline win-step win-step--horizontal win-step--process">
+          <div class="win-step__title win-step__title--active" style="color: rgb(51, 136, 255);">商家接单</div>
+          <div class="win-step__circle-container"><i class="win-icon win-icon-success win-step__icon win-step__icon--active" style="color: rgb(51, 136, 255);">
+              <!----></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--horizontal">
+          <div class="win-step__title">买家提货</div>
+          <div class="win-step__circle-container"><i class="win-icon win-icon-arrow win-step__icon">
+              <!----></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--horizontal">
+          <div class="win-step__title">交易完成</div>
+          <div class="win-step__circle-container"><i class="win-icon win-icon-arrow win-step__icon">
+              <!----></i></div>
+          <div class="win-step__line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-steps win-steps--vertical">
+      <div class="win-steps__items">
+        <div class="win-hairline win-step win-step--vertical win-step--process">
+          <div class="win-step__title win-step__title--active">
+            <h3>【城市】物流状态1</h3>
+            <p>2016-07-12 12:40</p>
+          </div>
+          <div class="win-step__circle-container"><i class="win-icon win-icon-checked win-step__icon win-step__icon--active">
+              <!----></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--vertical">
+          <div class="win-step__title">
+            <h3>【城市】物流状态</h3>
+            <p>2016-07-11 10:00</p>
+          </div>
+          <div class="win-step__circle-container"><i class="win-step__circle"></i></div>
+          <div class="win-step__line"></div>
+        </div>
+        <div class="win-hairline win-step win-step--vertical">
+          <div class="win-step__title">
+            <h3>快件已发货</h3>
+            <p>2016-07-10 09:30</p>
+          </div>
+          <div class="win-step__circle-container"><i class="win-step__circle"></i></div>
+          <div class="win-step__line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

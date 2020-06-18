@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button render default slot 1`] = `
+<button class="win-button win-button--default win-button--large win-button--square win-goods-action-button win-goods-action-button--first win-goods-action-button--last">
+  <div class="win-button__content"><span class="win-button__text">Default Content</span></div>
+</button>
+`;
+
+exports[`Icon render default slot 1`] = `
+<div role="button" tabindex="0" class="win-goods-action-icon">
+  <div class="win-icon win-icon-undefined win-goods-action-icon__icon">
+    <!---->
+  </div>Default Content
+</div>
+`;
+
+exports[`Icon render icon slot 1`] = `
+<div role="button" tabindex="0" class="win-goods-action-icon">
+  <div class="win-goods-action-icon__icon">Custom Icon
+    <!---->
+  </div>Text
+</div>
+`;
+
+exports[`Icon render icon slot with dot 1`] = `
+<div role="button" tabindex="0" class="win-goods-action-icon">
+  <div class="win-goods-action-icon__icon">Custom Icon<div class="win-info win-info--dot"></div>
+  </div>Text
+</div>
+`;
+
+exports[`Icon render icon slot with info 1`] = `
+<div role="button" tabindex="0" class="win-goods-action-icon">
+  <div class="win-goods-action-icon__icon">Custom Icon<div class="win-info">1</div>
+  </div>Text
+</div>
+`;
+
+exports[`disable safe-area-inset-bottom prop 1`] = `<div class="win-goods-action win-goods-action--unfit"></div>`;

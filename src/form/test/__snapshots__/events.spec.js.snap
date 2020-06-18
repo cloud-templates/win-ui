@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`failed event 1`] = `
+<form class="win-form">
+  <div class="win-cell win-field win-field--error">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body"><input type="text" name="A" class="win-field__control"></div>
+      <div class="win-field__error-message">A failed</div>
+    </div>
+  </div>
+  <div class="win-cell win-field win-field--error">
+    <div class="win-cell__value win-cell__value--alone win-field__value">
+      <div class="win-field__body"><input type="text" name="B" class="win-field__control"></div>
+      <div class="win-field__error-message">B failed</div>
+    </div>
+  </div> <button type="submit" class="win-button win-button--default win-button--normal">
+    <div class="win-button__content"></div>
+  </button>
+</form>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content slot 1`] = `
+<div class="win-tree-select" style="height: 300px;">
+  <div class="win-sidebar win-tree-select__nav"><a class="win-sidebar-item win-sidebar-item--select win-tree-select__nav-item">
+      <div class="win-sidebar-item__text">group1
+        <!---->
+      </div>
+    </a></div>
+  <div class="win-tree-select__content">Custom Content</div>
+</div>
+`;
+
+exports[`empty list 1`] = `
+<div class="win-tree-select" style="height: 300px;">
+  <div class="win-sidebar win-tree-select__nav"></div>
+  <div class="win-tree-select__content"></div>
+</div>
+`;
+
+exports[`height prop 1`] = `
+<div class="win-tree-select" style="height: 100vh;">
+  <div class="win-sidebar win-tree-select__nav"></div>
+  <div class="win-tree-select__content"></div>
+</div>
+`;
+
+exports[`nav info 1`] = `
+<div class="win-tree-select" style="height: 300px;">
+  <div class="win-sidebar win-tree-select__nav"><a class="win-sidebar-item win-sidebar-item--select win-tree-select__nav-item">
+      <div class="win-sidebar-item__text">group1<div class="win-info win-sidebar-item__info">3</div>
+      </div>
+    </a></div>
+  <div class="win-tree-select__content"></div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button color 1`] = `
+<div role="dialog" class="win-dialog" name="win-dialog-bounce">
+  <div class="win-hairline--top win-dialog__footer win-dialog__footer--buttons"><button class="win-button win-button--default win-button--large win-dialog__cancel" style="color: white;">
+      <div class="win-button__content"><span class="win-button__text">取消</span></div>
+    </button><button class="win-button win-button--default win-button--large win-dialog__confirm win-hairline--left" style="color: red;">
+      <div class="win-button__content"><span class="win-button__text">确认</span></div>
+    </button></div>
+</div>
+`;
+
+exports[`button text 1`] = `
+<div role="dialog" class="win-dialog" name="win-dialog-bounce">
+  <div class="win-hairline--top win-dialog__footer win-dialog__footer--buttons"><button class="win-button win-button--default win-button--large win-dialog__cancel">
+      <div class="win-button__content"><span class="win-button__text">Custom cancel</span></div>
+    </button><button class="win-button win-button--default win-button--large win-dialog__confirm win-hairline--left">
+      <div class="win-button__content"><span class="win-button__text">Custom confirm</span></div>
+    </button></div>
+</div>
+`;
+
+exports[`default slot 1`] = `
+<div role="dialog" class="win-dialog" name="win-dialog-bounce">
+  <div class="win-dialog__content">Custom Message</div>
+  <div class="win-hairline--top win-dialog__footer"><button class="win-button win-button--default win-button--large win-dialog__confirm">
+      <div class="win-button__content"><span class="win-button__text">确认</span></div>
+    </button></div>
+</div>
+`;
+
+exports[`title slot 1`] = `
+<div role="dialog" class="win-dialog" name="win-dialog-bounce">
+  <div class="win-dialog__header win-dialog__header--isolated">Custom Title</div>
+  <div class="win-hairline--top win-dialog__footer"><button class="win-button win-button--default win-button--large win-dialog__confirm">
+      <div class="win-button__content"><span class="win-button__text">确认</span></div>
+    </button></div>
+</div>
+`;

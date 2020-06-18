@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-address-edit">
+      <div class="win-address-edit__fields">
+        <div class="win-cell win-field">
+          <div class="win-cell__title win-field__label"><span>姓名</span></div>
+          <div class="win-cell__value win-field__value">
+            <div class="win-field__body"><input type="text" placeholder="收货人姓名" class="win-field__control"></div>
+          </div>
+        </div>
+        <div class="win-cell win-field">
+          <div class="win-cell__title win-field__label"><span>电话</span></div>
+          <div class="win-cell__value win-field__value">
+            <div class="win-field__body"><input type="tel" placeholder="收货人手机号" class="win-field__control"></div>
+          </div>
+        </div>
+        <div role="button" tabindex="0" class="win-cell win-cell--clickable win-field">
+          <div class="win-cell__title win-field__label"><span>地区</span></div>
+          <div class="win-cell__value win-field__value">
+            <div class="win-field__body"><input type="text" readonly="readonly" placeholder="选择省 / 市 / 区" class="win-field__control">
+              <div class="win-field__right-icon"><i class="win-icon win-icon-arrow">
+                  <!----></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="win-cell win-address-edit-detail">
+          <div class="win-cell__value win-cell__value--alone">
+            <div class="win-cell win-field">
+              <div class="win-cell__title win-field__label"><span>详细地址</span></div>
+              <div class="win-cell__value win-field__value">
+                <div class="win-field__body"><textarea rows="1" placeholder="街道门牌、楼层房间号等信息" class="win-field__control" style="height: auto;"></textarea></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="win-cell win-field">
+          <div class="win-cell__title win-field__label"><span>邮政编码</span></div>
+          <div class="win-cell__value win-field__value">
+            <div class="win-field__body"><input type="tel" placeholder="邮政编码" class="win-field__control"></div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-cell--center win-switch-cell win-address-edit__default">
+        <div class="win-cell__title"><span>设为默认收货地址</span></div>
+        <div class="win-cell__value">
+          <div role="switch" aria-checked="false" class="win-switch" style="font-size: 24px;">
+            <div class="win-switch__node"></div>
+          </div>
+        </div>
+      </div>
+      <div class="win-address-edit__buttons"><button class="win-button win-button--danger win-button--normal win-button--block win-button--round">
+          <div class="win-button__content"><span class="win-button__text">保存</span></div>
+        </button><button class="win-button win-button--default win-button--normal win-button--block win-button--round">
+          <div class="win-button__content"><span class="win-button__text">删除</span></div>
+        </button></div>
+    </div>
+  </div>
+</div>
+`;

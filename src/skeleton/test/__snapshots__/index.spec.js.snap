@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`avatar shape 1`] = `
+<div class="win-skeleton win-skeleton--animate">
+  <div class="win-skeleton__avatar win-skeleton__avatar--square" style="width: 20px; height: 20px;"></div>
+  <div class="win-skeleton__content"></div>
+</div>
+`;
+
+exports[`disable animate 1`] = `
+<div class="win-skeleton win-skeleton--animate">
+  <div class="win-skeleton__content">
+    <div class="win-skeleton__row" style="width: 60%;"></div>
+  </div>
+</div>
+`;
+
+exports[`render chidren 1`] = `<div>Content</div>`;
+
+exports[`round prop 1`] = `
+<div class="win-skeleton win-skeleton--animate win-skeleton--round">
+  <div class="win-skeleton__avatar win-skeleton__avatar--round" style="width: 32px; height: 32px;"></div>
+  <div class="win-skeleton__content">
+    <h3 class="win-skeleton__title" style="width: 40%;"></h3>
+  </div>
+</div>
+`;
+
+exports[`row-width array 1`] = `
+<div class="win-skeleton win-skeleton--animate">
+  <div class="win-skeleton__content">
+    <div class="win-skeleton__row" style="width: 100%;"></div>
+    <div class="win-skeleton__row" style="width: 30px;"></div>
+    <div class="win-skeleton__row" style="width: 5rem;"></div>
+    <div class="win-skeleton__row"></div>
+  </div>
+</div>
+`;

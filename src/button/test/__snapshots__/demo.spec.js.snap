@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="demo-button-row"><button class="win-button win-button--default win-button--normal">
+        <div class="win-button__content"><span class="win-button__text">默认按钮</span></div>
+      </button> <button class="win-button win-button--primary win-button--normal">
+        <div class="win-button__content"><span class="win-button__text">主要按钮</span></div>
+      </button> <button class="win-button win-button--info win-button--normal">
+        <div class="win-button__content"><span class="win-button__text">信息按钮</span></div>
+      </button></div> <button class="win-button win-button--danger win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">危险按钮</span></div>
+    </button> <button class="win-button win-button--warning win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">警告按钮</span></div>
+    </button>
+  </div>
+  <div><button class="win-button win-button--primary win-button--normal win-button--plain">
+      <div class="win-button__content"><span class="win-button__text">朴素按钮</span></div>
+    </button> <button class="win-button win-button--info win-button--normal win-button--plain">
+      <div class="win-button__content"><span class="win-button__text">朴素按钮</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal win-button--plain win-button--hairline win-hairline--surround">
+      <div class="win-button__content"><span class="win-button__text">细边框按钮</span></div>
+    </button> <button class="win-button win-button--info win-button--normal win-button--plain win-button--hairline win-hairline--surround">
+      <div class="win-button__content"><span class="win-button__text">细边框按钮</span></div>
+    </button></div>
+  <div><button disabled="disabled" class="win-button win-button--primary win-button--normal win-button--disabled">
+      <div class="win-button__content"><span class="win-button__text">禁用状态</span></div>
+    </button> <button disabled="disabled" class="win-button win-button--info win-button--normal win-button--disabled">
+      <div class="win-button__content"><span class="win-button__text">禁用状态</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal win-button--loading">
+      <div class="win-button__content">
+        <div class="win-loading win-loading--circular win-button__loading"><span class="win-loading__spinner win-loading__spinner--circular" style="color: currentColor; width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+      </div>
+    </button> <button class="win-button win-button--primary win-button--normal win-button--loading">
+      <div class="win-button__content">
+        <div class="win-loading win-loading--spinner win-button__loading"><span class="win-loading__spinner win-loading__spinner--spinner" style="color: currentColor; width: 20px; height: 20px;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+      </div>
+    </button> <button class="win-button win-button--info win-button--normal win-button--loading">
+      <div class="win-button__content">
+        <div class="win-loading win-loading--circular win-button__loading"><span class="win-loading__spinner win-loading__spinner--circular" style="color: currentColor; width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div><span class="win-button__text">加载中...</span>
+      </div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal win-button--square">
+      <div class="win-button__content"><span class="win-button__text">方形按钮</span></div>
+    </button> <button class="win-button win-button--info win-button--normal win-button--round">
+      <div class="win-button__content"><span class="win-button__text">圆形按钮</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><i class="win-icon win-icon-star-o win-button__icon">
+          <!----></i></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><i class="win-icon win-icon-star-o win-button__icon">
+          <!----></i><span class="win-button__text">按钮</span></div>
+    </button> <button class="win-button win-button--primary win-button--normal win-button--plain">
+      <div class="win-button__content"><i class="win-icon win-button__icon"><img src="https://img.yzcdn.cn/vant/logo.png" class="win-icon__image">
+          <!----></i><span class="win-button__text">按钮</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--large">
+      <div class="win-button__content"><span class="win-button__text">大号按钮</span></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">普通按钮</span></div>
+    </button> <button class="win-button win-button--primary win-button--small">
+      <div class="win-button__content"><span class="win-button__text">小型按钮</span></div>
+    </button> <button class="win-button win-button--primary win-button--mini">
+      <div class="win-button__content"><span class="win-button__text">迷你按钮</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal win-button--block">
+      <div class="win-button__content"><span class="win-button__text">块级元素</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">URL 跳转</span></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">路由跳转</span></div>
+    </button></div>
+  <div><button class="win-button win-button--default win-button--normal" style="color: rgb(255, 255, 255); background: rgb(114, 50, 221); border-color: #7232dd;">
+      <div class="win-button__content"><span class="win-button__text">单色按钮</span></div>
+    </button> <button class="win-button win-button--default win-button--normal win-button--plain" style="color: rgb(114, 50, 221); border-color: #7232dd;">
+      <div class="win-button__content"><span class="win-button__text">单色按钮</span></div>
+    </button> <button class="win-button win-button--default win-button--normal" style="color: rgb(255, 255, 255); border: 0px;">
+      <div class="win-button__content"><span class="win-button__text">渐变色按钮</span></div>
+    </button></div>
+</div>
+`;

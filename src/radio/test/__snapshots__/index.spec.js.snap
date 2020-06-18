@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checked-color prop 1`] = `
+<div role="radiogroup" class="win-radio-group">
+  <div role="radio" tabindex="0" aria-checked="true" class="win-radio">
+    <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked"><i class="win-icon win-icon-success" style="border-color: black; background-color: black;">
+        <!----></i></div><span class="win-radio__label">label</span>
+  </div>
+  <div role="radio" tabindex="0" aria-checked="true" class="win-radio">
+    <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked"><i class="win-icon win-icon-success" style="border-color: white; background-color: white;">
+        <!----></i></div><span class="win-radio__label">label</span>
+  </div>
+</div>
+`;
+
+exports[`icon-size prop 1`] = `
+<div role="radiogroup" class="win-radio-group">
+  <div role="radio" tabindex="0" aria-checked="true" class="win-radio">
+    <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked" style="font-size: 10rem;"><i class="win-icon win-icon-success">
+        <!----></i></div><span class="win-radio__label">label</span>
+  </div>
+  <div role="radio" tabindex="0" aria-checked="true" class="win-radio">
+    <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked" style="font-size: 5rem;"><i class="win-icon win-icon-success">
+        <!----></i></div><span class="win-radio__label">label</span>
+  </div>
+</div>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-tree-select" style="height: 300px;">
+      <div class="win-sidebar win-tree-select__nav"><a class="win-sidebar-item win-sidebar-item--select win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">浙江
+            <!---->
+          </div>
+        </a><a class="win-sidebar-item win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">江苏
+            <!---->
+          </div>
+        </a><a class="win-sidebar-item win-sidebar-item--disabled win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">福建
+            <!---->
+          </div>
+        </a></div>
+      <div class="win-tree-select__content">
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--active">杭州<i class="win-icon win-icon-success win-tree-select__selected">
+            <!----></i></div>
+        <div class="win-ellipsis win-tree-select__item">温州</div>
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--disabled">宁波</div>
+        <div class="win-ellipsis win-tree-select__item">义乌</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-tree-select" style="height: 300px;">
+      <div class="win-sidebar win-tree-select__nav"><a class="win-sidebar-item win-sidebar-item--select win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">浙江
+            <!---->
+          </div>
+        </a><a class="win-sidebar-item win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">江苏
+            <!---->
+          </div>
+        </a><a class="win-sidebar-item win-sidebar-item--disabled win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">福建
+            <!---->
+          </div>
+        </a></div>
+      <div class="win-tree-select__content">
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--active">杭州<i class="win-icon win-icon-success win-tree-select__selected">
+            <!----></i></div>
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--active">温州<i class="win-icon win-icon-success win-tree-select__selected">
+            <!----></i></div>
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--disabled">宁波</div>
+        <div class="win-ellipsis win-tree-select__item">义乌</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-tree-select" style="height: 55vw;">
+      <div class="win-sidebar win-tree-select__nav"><a class="win-sidebar-item win-sidebar-item--select win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">分组 1
+            <!---->
+          </div>
+        </a><a class="win-sidebar-item win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">分组 2
+            <!---->
+          </div>
+        </a></div>
+      <div class="win-tree-select__content">
+        <div class="win-image"><img src="https://img.yzcdn.cn/vant/apple-1.jpg" class="win-image__img"></div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-tree-select" style="height: 55vw;">
+      <div class="win-sidebar win-tree-select__nav"><a class="win-sidebar-item win-sidebar-item--select win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">浙江<div class="win-info win-info--dot win-sidebar-item__info"></div>
+          </div>
+        </a><a class="win-sidebar-item win-tree-select__nav-item">
+          <div class="win-sidebar-item__text">江苏<div class="win-info win-sidebar-item__info">5</div>
+          </div>
+        </a></div>
+      <div class="win-tree-select__content">
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--active">杭州<i class="win-icon win-icon-success win-tree-select__selected">
+            <!----></i></div>
+        <div class="win-ellipsis win-tree-select__item">温州</div>
+        <div class="win-ellipsis win-tree-select__item win-tree-select__item--disabled">宁波</div>
+        <div class="win-ellipsis win-tree-select__item">义乌</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div><button class="win-button win-button--primary win-button--normal" style="margin-left: 16px;">
+      <div class="win-button__content"><span class="win-button__text">显示遮罩层</span></div>
+    </button>
+    <div class="win-overlay" style="display: none;" name="win-fade"></div>
+  </div>
+  <div><button class="win-button win-button--primary win-button--normal" style="margin-left: 16px;">
+      <div class="win-button__content"><span class="win-button__text">嵌入内容</span></div>
+    </button>
+    <div class="win-overlay" style="display: none;" name="win-fade">
+      <div class="wrapper">
+        <div class="block"></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable win-cell--center win-cell--borderless win-contact-card win-contact-card--add"><i class="win-icon win-icon-add-square win-cell__left-icon">
+        <!----></i>
+      <div class="win-cell__value win-cell__value--alone win-contact-card__value">添加联系人</div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+    <div class="win-popup win-popup--bottom" style="display: none;" name="win-popup-slide-bottom">
+      <div class="win-contact-list">
+        <div role="radiogroup" class="win-radio-group win-contact-list__group">
+          <div role="button" tabindex="0" class="win-cell win-cell--clickable win-cell--center win-contact-list__item"><i class="win-icon win-icon-edit win-contact-list__edit">
+              <!----></i>
+            <div class="win-cell__value win-cell__value--alone win-contact-list__item-value">张三，13000000000<span class="win-tag win-tag--round win-tag--danger win-contact-list__item-tag">默认</span></div>
+            <div role="radio" tabindex="-1" aria-checked="false" class="win-radio">
+              <div class="win-radio__icon win-radio__icon--round" style="font-size: 16px;"><i class="win-icon win-icon-success">
+                  <!----></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="win-contact-list__bottom"><button class="win-button win-button--danger win-button--normal win-button--block win-button--round win-contact-list__add">
+            <div class="win-button__content"><span class="win-button__text">新建联系人</span></div>
+          </button></div>
+      </div>
+    </div>
+    <div class="win-popup win-popup--bottom" style="display: none;" name="win-popup-slide-bottom">
+      <div class="win-contact-edit">
+        <div class="win-contact-edit__fields">
+          <div class="win-cell win-field">
+            <div class="win-cell__title win-field__label"><span>张三</span></div>
+            <div class="win-cell__value win-field__value">
+              <div class="win-field__body"><input type="text" placeholder="请填写姓名" class="win-field__control"></div>
+            </div>
+          </div>
+          <div class="win-cell win-field">
+            <div class="win-cell__title win-field__label"><span>电话</span></div>
+            <div class="win-cell__value win-field__value">
+              <div class="win-field__body"><input type="tel" placeholder="请填写电话" class="win-field__control"></div>
+            </div>
+          </div>
+        </div>
+        <div class="win-cell win-cell--borderless win-contact-edit__switch-cell">
+          <div class="win-cell__title"><span>设为默认联系人</span></div>
+          <div class="win-cell__value">
+            <div role="switch" aria-checked="false" class="win-switch" style="font-size: 24px;">
+              <div class="win-switch__node"></div>
+            </div>
+          </div>
+        </div>
+        <div class="win-contact-edit__buttons"><button class="win-button win-button--danger win-button--normal win-button--block win-button--round">
+            <div class="win-button__content"><span class="win-button__text">保存</span></div>
+          </button></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-cell win-cell--center win-cell--borderless win-contact-card win-contact-card--edit"><i class="win-icon win-icon-contact win-cell__left-icon">
+        <!----></i>
+      <div class="win-cell__value win-cell__value--alone win-contact-card__value">
+        <div>张三：张三</div>
+        <div>电话：13000000000</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

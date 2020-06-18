@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lazy-render prop 1`] = `
+<div class="win-calendar">
+  <div class="win-calendar__header">
+    <div class="win-calendar__header-title">日期选择</div>
+    <div class="win-calendar__header-subtitle"></div>
+    <div class="win-calendar__weekdays"><span class="win-calendar__weekday">日</span><span class="win-calendar__weekday">一</span><span class="win-calendar__weekday">二</span><span class="win-calendar__weekday">三</span><span class="win-calendar__weekday">四</span><span class="win-calendar__weekday">五</span><span class="win-calendar__weekday">六</span></div>
+  </div>
+  <div class="win-calendar__body">
+    <div class="win-calendar__month">
+      <div role="grid" class="win-calendar__days">
+        <div class="win-calendar__month-mark">1</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled" style="margin-left: 71.42857142857143%;">1</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">2</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">3</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">4</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">5</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">6</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">7</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">8</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">9</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">10</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">11</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">12</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">13</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">14</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">15</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">16</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">17</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">18</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">19</div>
+        <div role="gridcell" tabindex="-1" class="win-calendar__day">
+          <div class="win-calendar__selected-day">20</div>
+        </div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">21</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">22</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">23</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">24</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">25</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">26</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">27</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">28</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">29</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">30</div>
+        <div role="gridcell" class="win-calendar__day win-calendar__day--disabled">31</div>
+      </div>
+    </div>
+  </div>
+  <div class="win-calendar__footer"><button type="button" class="win-button win-button--danger win-button--normal win-button--block win-button--round win-calendar__confirm">
+      <div class="win-button__content"><span class="win-button__text">确定</span></div>
+    </button></div>
+</div>
+`;

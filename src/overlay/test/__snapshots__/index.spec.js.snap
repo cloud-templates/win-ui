@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class-name prop 1`] = `<div class="win-overlay my-overlay" name="win-fade"></div>`;
+
+exports[`custom style prop 1`] = `<div class="win-overlay" style="background-color: red;" name="win-fade"></div>`;
+
+exports[`default slot 1`] = `<div class="win-overlay" style="display: none;" name="win-fade">Custom Default</div>`;
+
+exports[`duration prop 1`] = `<div class="win-overlay" style="animation-duration: 1s;" name="win-fade"></div>`;
+
+exports[`z-index prop 1`] = `<div class="win-overlay" style="z-index: 99;" name="win-fade"></div>`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`callback events 1`] = `
+<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" name="win-popup-slide-bottom"><button type="button" class="win-action-sheet__item"><span class="win-action-sheet__name">Option</span></button><button type="button" class="win-action-sheet__item win-action-sheet__item--disabled"><span class="win-action-sheet__name">Option</span></button><button type="button" class="win-action-sheet__item win-action-sheet__item--loading">
+    <div class="win-loading win-loading--circular"><span class="win-loading__spinner win-loading__spinner--circular" style="width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+  </button><button type="button" class="win-action-sheet__item"><span class="win-action-sheet__name">Option</span><span class="win-action-sheet__subname">Subname</span></button>
+  <div class="win-action-sheet__gap"></div><button type="button" class="win-action-sheet__cancel">Cancel</button>
+</div>
+`;
+
+exports[`close-icon prop 1`] = `
+<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" name="win-popup-slide-bottom">
+  <div class="win-action-sheet__header">Title<i class="win-icon win-icon-cross win-action-sheet__close">
+      <!----></i></div>
+</div>
+`;
+
+exports[`color option 1`] = `<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" name="win-popup-slide-bottom"><button type="button" class="win-action-sheet__item" style="color: red;"><span class="win-action-sheet__name">Option</span></button></div>`;
+
+exports[`description prop 1`] = `
+<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" name="win-popup-slide-bottom">
+  <div class="win-action-sheet__description">This is a description</div><button type="button" class="win-action-sheet__item"><span class="win-action-sheet__name">Option</span></button>
+</div>
+`;
+
+exports[`disable lazy-render 1`] = `
+<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" style="display: none;" name="win-popup-slide-bottom"><button type="button" class="win-action-sheet__item"><span class="win-action-sheet__name">Option</span></button><button type="button" class="win-action-sheet__item"><span class="win-action-sheet__name">Option</span></button>
+  <div class="win-action-sheet__gap"></div><button type="button" class="win-action-sheet__cancel">Cancel</button>
+</div>
+`;
+
+exports[`render title and default slot 1`] = `
+<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" name="win-popup-slide-bottom">
+  <div class="win-action-sheet__header">Title<i class="win-icon win-icon-cross win-action-sheet__close">
+      <!----></i></div>
+  <div class="win-action-sheet__content">Default</div>
+</div>
+`;
+
+exports[`round prop 1`] = `<div class="win-popup win-popup--round win-popup--bottom win-popup--safe-area-inset-bottom win-action-sheet" name="win-popup-slide-bottom"><button type="button" class="win-action-sheet__item"><span class="win-action-sheet__name">Option</span></button></div>`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-nav-bar win-hairline--bottom">
+      <div class="win-nav-bar__left"><i class="win-icon win-icon-arrow-left win-nav-bar__arrow">
+          <!----></i><span class="win-nav-bar__text">返回</span></div>
+      <div class="win-nav-bar__title win-ellipsis">标题</div>
+      <div class="win-nav-bar__right"><span class="win-nav-bar__text">按钮</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="win-nav-bar win-hairline--bottom">
+      <div class="win-nav-bar__left"><i class="win-icon win-icon-arrow-left win-nav-bar__arrow">
+          <!----></i><span class="win-nav-bar__text">返回</span></div>
+      <div class="win-nav-bar__title win-ellipsis">标题</div>
+      <div class="win-nav-bar__right"><i class="win-icon win-icon-search" style="font-size: 18px;">
+          <!----></i></div>
+    </div>
+  </div>
+</div>
+`;

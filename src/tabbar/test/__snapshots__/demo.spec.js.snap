@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-hairline--top-bottom win-tabbar win-tabbar--fixed">
+      <div class="win-tabbar-item win-tabbar-item--active">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-home-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-search">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-friends-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-setting-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-hairline--top-bottom win-tabbar win-tabbar--fixed">
+      <div class="win-tabbar-item win-tabbar-item--active">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-home-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">
+          标签
+        </div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-search">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">
+          标签
+        </div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-friends-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">
+          标签
+        </div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-setting-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">
+          标签
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-hairline--top-bottom win-tabbar win-tabbar--fixed">
+      <div class="win-tabbar-item win-tabbar-item--active">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-home-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-search">
+            <!----></i>
+          <div class="win-info win-info--dot"></div>
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-friends-o">
+            <!----></i>
+          <div class="win-info">5</div>
+        </div>
+        <div class="win-tabbar-item__text">
+          标签
+        </div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-setting-o">
+            <!----></i>
+          <div class="win-info">20</div>
+        </div>
+        <div class="win-tabbar-item__text">
+          标签
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-hairline--top-bottom win-tabbar win-tabbar--fixed">
+      <div class="win-tabbar-item win-tabbar-item--active">
+        <div class="win-tabbar-item__icon"><img src="https://img.yzcdn.cn/vant/user-active.png">
+          <div class="win-info">3</div>
+        </div>
+        <div class="win-tabbar-item__text"><span>自定义</span></div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-search">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-setting-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-hairline--top-bottom win-tabbar win-tabbar--fixed">
+      <div class="win-tabbar-item win-tabbar-item--active" style="color: rgb(7, 193, 96);">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-home-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item" style="color: rgb(0, 0, 0);">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-search">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item" style="color: rgb(0, 0, 0);">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-friends-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+      <div class="win-tabbar-item" style="color: rgb(0, 0, 0);">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-setting-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-hairline--top-bottom win-tabbar win-tabbar--fixed">
+      <div class="win-tabbar-item win-tabbar-item--active">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-home-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签1</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-search">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签2</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-friends-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签3</div>
+      </div>
+      <div class="win-tabbar-item">
+        <div class="win-tabbar-item__icon"><i class="win-icon win-icon-setting-o">
+            <!----></i>
+          <!---->
+        </div>
+        <div class="win-tabbar-item__text">标签4</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

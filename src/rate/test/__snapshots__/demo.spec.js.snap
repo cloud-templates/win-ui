@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-like win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-like win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-like win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-like-o win-rate__icon">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-like-o win-rate__icon">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full" style="color: rgb(238, 10, 36); font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full" style="color: rgb(238, 10, 36); font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon win-rate__icon--full" style="color: rgb(238, 10, 36); font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star win-rate__icon" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star win-rate__icon" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full" style="font-size: 25px;">
+          <!----></i><i data-score="0.5" class="win-icon win-icon-star win-rate__icon win-rate__icon--half win-rate__icon--full" style="font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full" style="font-size: 25px;">
+          <!----></i><i data-score="1.5" class="win-icon win-icon-star win-rate__icon win-rate__icon--half win-rate__icon--full" style="font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i><i data-score="2.5" class="win-icon win-icon-star win-rate__icon win-rate__icon--half win-rate__icon--full" style="font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star win-rate__icon" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i><i data-score="3.5" class="win-icon win-icon-star win-rate__icon win-rate__icon--half" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star win-rate__icon" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i><i data-score="4.5" class="win-icon win-icon-star win-rate__icon win-rate__icon--half" style="color: rgb(238, 238, 238); font-size: 25px;">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate">
+      <div role="radio" tabindex="0" aria-setsize="6" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="6" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="6" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="6" aria-posinset="4" aria-checked="true" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="6" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="6" aria-posinset="6" aria-checked="false" class="win-rate__item"><i data-score="6" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate win-rate--disabled">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--disabled win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--disabled win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon win-rate__icon--disabled win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon win-rate__icon--disabled">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon win-rate__icon--disabled">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate win-rate--readonly">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+    </div>
+  </div>
+  <div>
+    <div tabindex="0" role="radiogroup" class="win-rate">
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="false" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+      <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon">
+          <!----></i></div>
+    </div>
+  </div>
+</div>
+`;

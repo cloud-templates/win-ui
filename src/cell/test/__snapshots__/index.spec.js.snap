@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellGroup title slot 1`] = `
+<div>
+  <div class="win-cell-group__title">CustomTitle</div>
+  <div class="win-cell-group win-hairline--top-bottom"></div>
+</div>
+`;
+
+exports[`arrow direction 1`] = `
+<div role="button" tabindex="0" class="win-cell win-cell--clickable"><i class="win-icon win-icon-arrow-down win-cell__right-icon">
+    <!----></i></div>
+`;
+
+exports[`icon-prefix prop 1`] = `
+<div class="win-cell"><i class="my-icon my-icon-success win-cell__left-icon">
+    <!----></i></div>
+`;
+
+exports[`render slot 1`] = `
+<div class="win-cell">Custom Icon<div class="win-cell__title">Custom Title<div class="win-cell__label">Custom Label</div>
+  </div>Custom Extra</div>
+`;
+
+exports[`title-style prop 1`] = `
+<div class="win-cell">
+  <div class="win-cell__title" style="color: red;"><span>title</span></div>
+</div>
+`;

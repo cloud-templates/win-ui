@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__preview">
+          <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/leaf.jpg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+            <!----></i>
+        </div>
+        <div class="win-uploader__preview">
+          <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/tree.jpg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+            <!----></i>
+        </div>
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input multiple="multiple" type="file" accept="*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper win-uploader__wrapper--disabled">
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input type="file" accept="image/*" disabled="disabled" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__preview">
+          <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/leaf.jpg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+          <div class="win-uploader__mask">
+            <div class="win-loading win-loading--circular win-uploader__loading"><span class="win-loading__spinner win-loading__spinner--circular"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+            <div class="win-uploader__mask-message">上传中...</div>
+          </div>
+        </div>
+        <div class="win-uploader__preview">
+          <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/tree.jpg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+          <div class="win-uploader__mask"><i class="win-icon win-icon-warning-o win-uploader__mask-icon">
+              <!----></i>
+            <div class="win-uploader__mask-message">上传失败</div>
+          </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+            <!----></i>
+        </div>
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__preview">
+          <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/sand.jpg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+            <!----></i>
+        </div>
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input multiple="multiple" type="file" accept="image/*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input multiple="multiple" type="file" accept="image/*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__input-wrapper"><button class="win-button win-button--primary win-button--normal">
+            <div class="win-button__content"><i class="win-icon win-icon-photo win-button__icon">
+                <!----></i><span class="win-button__text">
+        上传文件
+      </span></div>
+          </button><input type="file" accept="image/*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-uploader">
+      <div class="win-uploader__wrapper">
+        <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+            <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div><span class="win-tag win-tag--default">标签</span> <span class="win-tag win-tag--primary">标签</span> <span class="win-tag win-tag--success">标签</span> <span class="win-tag win-tag--danger">标签</span> <span class="win-tag win-tag--warning">标签</span></div>
+  <div><span class="win-tag win-tag--round win-tag--default">标签</span> <span class="win-tag win-tag--round win-tag--primary">标签</span> <span class="win-tag win-tag--round win-tag--success">标签</span> <span class="win-tag win-tag--round win-tag--danger">标签</span> <span class="win-tag win-tag--round win-tag--warning">标签</span></div>
+  <div><span class="win-tag win-tag--mark win-tag--default">标签</span> <span class="win-tag win-tag--mark win-tag--primary">标签</span> <span class="win-tag win-tag--mark win-tag--success">标签</span> <span class="win-tag win-tag--mark win-tag--danger">标签</span> <span class="win-tag win-tag--mark win-tag--warning">标签</span></div>
+  <div><span class="win-tag win-tag--plain win-tag--default win-hairline--surround">标签</span> <span class="win-tag win-tag--plain win-tag--primary win-hairline--surround">标签</span> <span class="win-tag win-tag--plain win-tag--success win-hairline--surround">标签</span> <span class="win-tag win-tag--plain win-tag--danger win-hairline--surround">标签</span> <span class="win-tag win-tag--plain win-tag--warning win-hairline--surround">标签</span></div>
+  <div><span class="win-tag win-tag--default" style="background-color: rgb(242, 130, 106);">标签</span> <span class="win-tag win-tag--plain win-tag--default win-hairline--surround" style="color: rgb(242, 130, 106);">标签</span> <span class="win-tag win-tag--default" style="background-color: rgb(114, 50, 221);">标签</span> <span class="win-tag win-tag--plain win-tag--default win-hairline--surround" style="color: rgb(114, 50, 221);">标签</span> <span class="win-tag win-tag--default" style="background-color: rgb(255, 225, 225); color: rgb(173, 0, 0);">标签</span></div>
+  <div><span class="win-tag win-tag--success">标签</span> <span class="win-tag win-tag--medium win-tag--success">标签</span> <span class="win-tag win-tag--large win-tag--success">标签</span></div>
+  <div><span class="win-tag win-tag--medium win-tag--primary" name="win-fade">
+      标签
+    <i class="win-icon win-icon-cross win-tag__close"><!----></i></span> <span class="win-tag win-tag--medium win-tag--success" name="win-fade">
+      标签
+    <i class="win-icon win-icon-cross win-tag__close"><!----></i></span></div>
+</div>
+`;

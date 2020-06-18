@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div class="win-sticky"><button class="win-button win-button--primary win-button--normal" style="margin-left: 15px;">
+          <div class="win-button__content"><span class="win-button__text">
+        基础用法
+      </span></div>
+        </button></div>
+    </div>
+  </div>
+  <div>
+    <div style="height: 0px;">
+      <div class="win-sticky win-sticky--fixed" style="top: 50px;"><button class="win-button win-button--info win-button--normal" style="margin-left: 115px;">
+          <div class="win-button__content"><span class="win-button__text">
+        吸顶距离
+      </span></div>
+        </button></div>
+    </div>
+  </div>
+  <div>
+    <div style="height: 150px; background-color: rgb(255, 255, 255);">
+      <div>
+        <div class="win-sticky"><button class="win-button win-button--warning win-button--normal" style="margin-left: 215px;">
+            <div class="win-button__content"><span class="win-button__text">
+          指定容器
+        </span></div>
+          </button></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

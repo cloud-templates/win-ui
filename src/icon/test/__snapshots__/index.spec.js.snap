@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dot prop 1`] = `
+<i class="win-icon win-icon-undefined">
+  <div class="win-info win-info--dot"></div>
+</i>
+`;
+
+exports[`render icon default slot 1`] = `
+<i class="win-icon win-icon-success">Default slot
+  <!----></i>
+`;
+
+exports[`render icon with builtin icon name 1`] = `
+<i class="win-icon win-icon-success">
+  <!----></i>
+`;
+
+exports[`render icon with local image 1`] = `
+<i class="win-icon"><img src="/assets/icon.jpg" class="win-icon__image">
+  <!----></i>
+`;
+
+exports[`render icon with url name 1`] = `
+<i class="win-icon"><img src="https://img.yzcdn.com/icon.jpg" class="win-icon__image">
+  <!----></i>
+`;
+
+exports[`size without unit 1`] = `
+<i class="win-icon win-icon-undefined" style="font-size: 20px;">
+  <!----></i>
+`;
+
+exports[`tag prop 1`] = `
+<div class="win-icon win-icon-undefined">
+  <!---->
+</div>
+`;

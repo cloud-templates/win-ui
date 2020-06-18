@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-submit-bar">
+      <div class="win-submit-bar__bar">
+        <div class="win-submit-bar__text"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">30</span>.50</span></div><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+          <div class="win-button__content"><span class="win-button__text">提交订单</span></div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-submit-bar">
+      <div class="win-submit-bar__tip"><i class="win-icon win-icon-info-o win-submit-bar__tip-icon">
+          <!----></i><span class="win-submit-bar__tip-text">你的收货地址不支持同城送, 我们已为你推荐快递</span></div>
+      <div class="win-submit-bar__bar">
+        <div class="win-submit-bar__text"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">30</span>.50</span></div><button disabled="disabled" class="win-button win-button--danger win-button--normal win-button--disabled win-button--round win-submit-bar__button win-submit-bar__button--danger">
+          <div class="win-button__content"><span class="win-button__text">提交订单</span></div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-submit-bar">
+      <div class="win-submit-bar__bar">
+        <div class="win-submit-bar__text"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">30</span>.50</span></div><button class="win-button win-button--danger win-button--normal win-button--loading win-button--round win-submit-bar__button win-submit-bar__button--danger">
+          <div class="win-button__content">
+            <div class="win-loading win-loading--circular win-button__loading"><span class="win-loading__spinner win-loading__spinner--circular" style="color: currentColor; width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-submit-bar">
+      <div class="win-submit-bar__tip">
+        你的收货地址不支持同城送,
+        <span class="edit-address">
+          修改地址
+        </span></div>
+      <div class="win-submit-bar__bar">
+        <div role="checkbox" tabindex="0" aria-checked="true" class="win-checkbox">
+          <div class="win-checkbox__icon win-checkbox__icon--round win-checkbox__icon--checked"><i class="win-icon win-icon-success">
+              <!----></i></div><span class="win-checkbox__label">全选</span>
+        </div>
+        <div class="win-submit-bar__text"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">30</span>.50</span></div><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+          <div class="win-button__content"><span class="win-button__text">提交订单</span></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

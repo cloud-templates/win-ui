@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-address-list">
+      <div role="radiogroup" class="win-radio-group">
+        <div class="win-address-item">
+          <div class="win-cell win-cell--borderless">
+            <div class="win-cell__value win-cell__value--alone win-address-item__value">
+              <div role="radio" tabindex="0" aria-checked="true" class="win-radio">
+                <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked" style="font-size: 18px;"><i class="win-icon win-icon-success">
+                    <!----></i></div><span class="win-radio__label"><div class="win-address-item__name">张三 13000000000<span class="win-tag win-tag--round win-tag--danger win-address-item__tag">默认</span>
+              </div>
+              <div class="win-address-item__address">浙江省杭州市西湖区文三路 138 号东方通信大厦 7 楼 501 室</div></span>
+            </div>
+          </div><i class="win-icon win-icon-edit win-address-item__edit">
+            <!----></i>
+        </div>
+      </div>
+      <div class="win-address-item">
+        <div class="win-cell win-cell--borderless">
+          <div class="win-cell__value win-cell__value--alone win-address-item__value">
+            <div role="radio" tabindex="-1" aria-checked="false" class="win-radio">
+              <div class="win-radio__icon win-radio__icon--round" style="font-size: 18px;"><i class="win-icon win-icon-success">
+                  <!----></i></div><span class="win-radio__label"><div class="win-address-item__name">李四 1310000000</div><div class="win-address-item__address">浙江省杭州市拱墅区莫干山路 50 号</div></span>
+            </div>
+          </div><i class="win-icon win-icon-edit win-address-item__edit">
+            <!----></i>
+        </div>
+      </div>
+    </div>
+    <div class="win-address-list__disabled-text">以下地址超出配送范围</div>
+    <div class="win-address-item win-address-item--disabled">
+      <div class="win-cell win-cell--borderless">
+        <div class="win-cell__value win-cell__value--alone win-address-item__value">
+          <div class="win-address-item__name">王五 1320000000</div>
+          <div class="win-address-item__address">浙江省杭州市滨江区江南大道 15 号</div>
+        </div><i class="win-icon win-icon-edit win-address-item__edit">
+          <!----></i>
+      </div>
+    </div>
+    <div class="win-address-list__bottom"><button class="win-button win-button--danger win-button--normal win-button--block win-button--round win-address-list__add">
+        <div class="win-button__content"><span class="win-button__text">新增地址</span></div>
+      </button></div>
+  </div>
+</div>
+</div>
+`;

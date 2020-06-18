@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-cell-group win-hairline--top-bottom">
+      <div class="win-cell">
+        <div class="win-cell__title"><span>单元格</span></div>
+        <div class="win-cell__value"><span>内容</span></div>
+      </div>
+      <div class="win-cell">
+        <div class="win-cell__title"><span>单元格</span>
+          <div class="win-cell__label">描述信息</div>
+        </div>
+        <div class="win-cell__value"><span>内容</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-cell win-cell--large">
+      <div class="win-cell__title"><span>单元格</span></div>
+      <div class="win-cell__value"><span>内容</span></div>
+    </div>
+    <div class="win-cell win-cell--large">
+      <div class="win-cell__title"><span>单元格</span>
+        <div class="win-cell__label">描述信息</div>
+      </div>
+      <div class="win-cell__value"><span>内容</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="win-cell"><i class="win-icon win-icon-location-o win-cell__left-icon">
+        <!----></i>
+      <div class="win-cell__title"><span>单元格</span></div>
+      <div class="win-cell__value"><span>内容</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="win-cell">
+      <div class="win-cell__value win-cell__value--alone"><span>内容</span></div>
+    </div>
+  </div>
+  <div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable">
+      <div class="win-cell__title"><span>单元格</span></div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable">
+      <div class="win-cell__title"><span>单元格</span></div>
+      <div class="win-cell__value"><span>内容</span></div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable">
+      <div class="win-cell__title"><span>单元格</span></div>
+      <div class="win-cell__value"><span>内容</span></div><i class="win-icon win-icon-arrow-down win-cell__right-icon">
+        <!----></i>
+    </div>
+  </div>
+  <div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable">
+      <div class="win-cell__title"><span>URL 跳转</span></div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable">
+      <div class="win-cell__title"><span>路由跳转</span></div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div class="win-cell-group__title">分组 1</div>
+      <div class="win-cell-group win-hairline--top-bottom">
+        <div class="win-cell">
+          <div class="win-cell__title"><span>单元格</span></div>
+          <div class="win-cell__value"><span>内容</span></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="win-cell-group__title">分组 2</div>
+      <div class="win-cell-group win-hairline--top-bottom">
+        <div class="win-cell">
+          <div class="win-cell__title"><span>单元格</span></div>
+          <div class="win-cell__value"><span>内容</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable">
+      <div class="win-cell__title"><span class="custom-title">单元格</span> <span class="win-tag win-tag--danger">标签</span></div>
+      <div class="win-cell__value"><span>内容</span></div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+    <div class="win-cell"><i class="win-icon win-icon-shop-o win-cell__left-icon">
+        <!----></i>
+      <div class="win-cell__title"><span>单元格</span></div><i class="win-icon win-icon-search" style="line-height: inherit;">
+        <!----></i>
+    </div>
+  </div>
+  <div>
+    <div class="win-cell win-cell--center">
+      <div class="win-cell__title"><span>单元格</span>
+        <div class="win-cell__label">描述信息</div>
+      </div>
+      <div class="win-cell__value"><span>内容</span></div>
+    </div>
+  </div>
+</div>
+`;

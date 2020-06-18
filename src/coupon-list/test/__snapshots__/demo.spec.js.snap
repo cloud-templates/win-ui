@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div role="button" tabindex="0" class="win-cell win-cell--clickable win-coupon-cell">
+      <div class="win-cell__title"><span>优惠券</span></div>
+      <div class="win-cell__value"><span>2张可用</span></div><i class="win-icon win-icon-arrow win-cell__right-icon">
+        <!----></i>
+    </div>
+    <!---->
+  </div>
+</div>
+`;

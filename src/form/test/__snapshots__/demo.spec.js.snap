@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <form class="win-form">
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>用户名</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="username" placeholder="用户名" class="win-field__control"></div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>密码</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="password" name="password" placeholder="密码" class="win-field__control"></div>
+        </div>
+      </div>
+      <div style="margin: 16px 16px 0px;"><button type="submit" class="win-button win-button--info win-button--normal win-button--block win-button--round">
+          <div class="win-button__content"><span class="win-button__text">
+        提交
+      </span></div>
+        </button></div>
+    </form>
+  </div>
+  <div>
+    <form class="win-form">
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>文本</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="pattern" placeholder="正则校验" class="win-field__control"></div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>文本</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="validator" placeholder="函数校验" class="win-field__control"></div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>文本</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="asyncValidator" placeholder="异步函数校验" class="win-field__control"></div>
+        </div>
+      </div>
+      <div style="margin: 16px 16px 0px;"><button type="submit" class="win-button win-button--info win-button--normal win-button--block win-button--round">
+          <div class="win-button__content"><span class="win-button__text">
+        提交
+      </span></div>
+        </button></div>
+    </form>
+  </div>
+  <div>
+    <form class="win-form">
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>开关</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div role="switch" aria-checked="false" class="win-switch" style="font-size: 20px;">
+                <div class="win-switch__node"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>复选框</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div role="checkbox" tabindex="0" aria-checked="false" class="win-checkbox">
+                <div class="win-checkbox__icon win-checkbox__icon--square"><i class="win-icon win-icon-success">
+                    <!----></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>复选框组</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div class="win-checkbox-group win-checkbox-group--horizontal">
+                <div role="checkbox" tabindex="0" aria-checked="false" class="win-checkbox win-checkbox--horizontal">
+                  <div class="win-checkbox__icon win-checkbox__icon--square"><i class="win-icon win-icon-success">
+                      <!----></i></div><span class="win-checkbox__label">
+            复选框 1
+          </span>
+                </div>
+                <div role="checkbox" tabindex="0" aria-checked="false" class="win-checkbox win-checkbox--horizontal">
+                  <div class="win-checkbox__icon win-checkbox__icon--square"><i class="win-icon win-icon-success">
+                      <!----></i></div><span class="win-checkbox__label">
+            复选框 2
+          </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>单选框</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div role="radiogroup" class="win-radio-group win-radio-group--horizontal">
+                <div role="radio" tabindex="0" aria-checked="true" class="win-radio win-radio--horizontal">
+                  <div class="win-radio__icon win-radio__icon--round win-radio__icon--checked"><i class="win-icon win-icon-success">
+                      <!----></i></div><span class="win-radio__label">单选框 1</span>
+                </div>
+                <div role="radio" tabindex="-1" aria-checked="false" class="win-radio win-radio--horizontal">
+                  <div class="win-radio__icon win-radio__icon--round"><i class="win-icon win-icon-success">
+                      <!----></i></div><span class="win-radio__label">单选框 2</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>步进器</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div class="win-stepper"><button type="button" class="win-stepper__minus win-stepper__minus--disabled"></button><input type="text" role="spinbutton" inputmode="decimal" aria-valuemax="Infinity" aria-valuemin="1" aria-valuenow="1" class="win-stepper__input"><button type="button" class="win-stepper__plus"></button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>评分</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div tabindex="0" role="radiogroup" class="win-rate">
+                <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="1" aria-checked="true" class="win-rate__item"><i data-score="1" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+                    <!----></i></div>
+                <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="2" aria-checked="true" class="win-rate__item"><i data-score="2" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+                    <!----></i></div>
+                <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="3" aria-checked="true" class="win-rate__item"><i data-score="3" class="win-icon win-icon-star win-rate__icon win-rate__icon--full">
+                    <!----></i></div>
+                <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="4" aria-checked="false" class="win-rate__item"><i data-score="4" class="win-icon win-icon-star-o win-rate__icon">
+                    <!----></i></div>
+                <div role="radio" tabindex="0" aria-setsize="5" aria-posinset="5" aria-checked="false" class="win-rate__item"><i data-score="5" class="win-icon win-icon-star-o win-rate__icon">
+                    <!----></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>滑块</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div class="win-slider">
+                <div class="win-slider__bar" style="width: 50%;">
+                  <div role="slider" tabindex="0" aria-valuemin="0" aria-valuenow="50" aria-valuemax="100" aria-orientation="horizontal" class="win-slider__button-wrapper">
+                    <div class="win-slider__button"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="win-cell win-field">
+        <div class="win-cell__title win-field__label"><span>文件上传</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body">
+            <div class="win-field__control win-field__control--custom">
+              <div class="win-uploader">
+                <div class="win-uploader__wrapper">
+                  <div class="win-uploader__preview">
+                    <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/leaf.jpg" class="win-image__img" style="object-fit: cover;">
+                      <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                          <!----></i></div>
+                    </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+                      <!----></i>
+                  </div>
+                  <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+                      <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div role="button" tabindex="0" class="win-cell win-cell--clickable win-field">
+        <div class="win-cell__title win-field__label"><span>选择器</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="picker" readonly="readonly" placeholder="点击选择城市" class="win-field__control"></div>
+        </div>
+      </div>
+      <div role="button" tabindex="0" class="win-cell win-cell--clickable win-field">
+        <div class="win-cell__title win-field__label"><span>时间选择</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="datetimePicker" readonly="readonly" placeholder="点击选择时间" class="win-field__control"></div>
+        </div>
+      </div>
+      <div role="button" tabindex="0" class="win-cell win-cell--clickable win-field">
+        <div class="win-cell__title win-field__label"><span>地区选择</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="area" readonly="readonly" placeholder="点击选择省市区" class="win-field__control"></div>
+        </div>
+      </div>
+      <div role="button" tabindex="0" class="win-cell win-cell--clickable win-field">
+        <div class="win-cell__title win-field__label"><span>日历</span></div>
+        <div class="win-cell__value win-field__value">
+          <div class="win-field__body"><input type="text" name="calendar" readonly="readonly" placeholder="点击选择日期" class="win-field__control"></div>
+        </div>
+      </div>
+      <div style="margin: 16px 16px 0px;"><button type="submit" class="win-button win-button--info win-button--normal win-button--block win-button--round">
+          <div class="win-button__content"><span class="win-button__text">
+        提交
+      </span></div>
+        </button></div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">文字提示</span></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">长文字提示</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">加载提示</span></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">自定义加载图标</span></div>
+    </button></div>
+  <div><button class="win-button win-button--info win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">成功提示</span></div>
+    </button> <button class="win-button win-button--danger win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">失败提示</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">自定义图标</span></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">展示图片</span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">动态更新提示</span></div>
+    </button></div>
+</div>
+`;

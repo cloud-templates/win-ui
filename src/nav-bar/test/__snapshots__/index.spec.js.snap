@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`placeholder prop 1`] = `
+<div class="win-nav-bar__placeholder" style="height: 50px;">
+  <div class="win-nav-bar win-nav-bar--fixed win-hairline--bottom">
+    <div class="win-nav-bar__left"></div>
+    <div class="win-nav-bar__title win-ellipsis"></div>
+    <div class="win-nav-bar__right"></div>
+  </div>
+</div>
+`;
+
+exports[`render left & right slot 1`] = `
+<div class="win-nav-bar win-hairline--bottom">
+  <div class="win-nav-bar__left">Custom Left</div>
+  <div class="win-nav-bar__title win-ellipsis"></div>
+  <div class="win-nav-bar__right">Custom Right</div>
+</div>
+`;
+
+exports[`render title slot 1`] = `
+<div class="win-nav-bar win-hairline--bottom">
+  <div class="win-nav-bar__left"></div>
+  <div class="win-nav-bar__title win-ellipsis">Custom Title</div>
+  <div class="win-nav-bar__right"></div>
+</div>
+`;

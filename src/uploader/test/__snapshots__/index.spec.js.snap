@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`delete preview image 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__upload" style="width: 30px; height: 30px;"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`disable preview image 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`file message should be reactive 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__preview">
+      <div class="win-image win-uploader__preview-image"><img src="data:image/test" class="win-image__img" style="object-fit: cover;">
+        <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+            <!----></i></div>
+      </div>
+      <div class="win-uploader__mask">
+        <div class="win-loading win-loading--circular win-uploader__loading"><span class="win-loading__spinner win-loading__spinner--circular"><svg viewBox="25 25 50 50" class="win-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+        <div class="win-uploader__mask-message">2</div>
+      </div>
+    </div>
+    <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`image-fit prop 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__preview">
+      <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="win-image__img" style="object-fit: contain;">
+        <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+            <!----></i></div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+    <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`max-count prop 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__preview">
+      <div class="win-image win-uploader__preview-image"><img src="data:image/test" class="win-image__img" style="object-fit: cover;">
+        <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+            <!----></i></div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`preview-size prop 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__preview" style="">
+      <div class="win-image win-uploader__preview-image" style="width: 30px; height: 30px;"><img src="data:image/test" class="win-image__img" style="object-fit: cover;">
+        <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+            <!----></i></div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+    <div class="win-uploader__upload" style="width: 30px; height: 30px;"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`render preview image 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__preview">
+      <div class="win-image win-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="win-image__img" style="object-fit: cover;">
+        <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+            <!----></i></div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+    <div class="win-uploader__preview">
+      <div class="win-uploader__file"><i class="win-icon win-icon-description win-uploader__file-icon">
+          <!----></i>
+        <div class="win-uploader__file-name win-ellipsis">https://img.yzcdn.cn/vant/test.pdf</div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+    <div class="win-uploader__preview">
+      <div class="win-uploader__file"><i class="win-icon win-icon-description win-uploader__file-icon">
+          <!----></i>
+        <div class="win-uploader__file-name win-ellipsis">test.pdf</div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+    <div class="win-uploader__preview">
+      <div class="win-image win-uploader__preview-image"><img src="data:image/test" class="win-image__img" style="object-fit: cover;">
+        <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+            <!----></i></div>
+      </div><i class="win-icon win-icon-clear win-uploader__preview-delete">
+        <!----></i>
+    </div>
+    <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`render upload-text 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__upload"><i class="win-icon win-icon-photograph win-uploader__upload-icon">
+        <!----></i><span class="win-uploader__upload-text">Text</span><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`upload-icon prop 1`] = `
+<div class="win-uploader">
+  <div class="win-uploader__wrapper">
+    <div class="win-uploader__upload"><i class="win-icon win-icon-add win-uploader__upload-icon">
+        <!----></i><input type="file" accept="image/*" class="win-uploader__input"></div>
+  </div>
+</div>
+`;

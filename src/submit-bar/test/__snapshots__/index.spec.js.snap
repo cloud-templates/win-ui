@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`decimal-length prop 1`] = `
+<div class="win-submit-bar">
+  <div class="win-submit-bar__bar">
+    <div class="win-submit-bar__text"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">1</span>.1</span></div><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`disable safe-area-inset-bottom prop 1`] = `
+<div class="win-submit-bar win-submit-bar--unfit">
+  <div class="win-submit-bar__bar"><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button></div>
+</div>
+`;
+
+exports[`disable submit 1`] = `
+<div class="win-submit-bar">
+  <div class="win-submit-bar__bar">
+    <div class="win-submit-bar__text"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">0</span>.01</span></div><button disabled="disabled" class="win-button win-button--danger win-button--normal win-button--disabled win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`suffix-label prop 1`] = `
+<div class="win-submit-bar">
+  <div class="win-submit-bar__bar">
+    <div class="win-submit-bar__text"><span>Label</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">1</span>.11</span><span class="win-submit-bar__suffix-label">Suffix Label</span></div><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`text-align prop 1`] = `
+<div class="win-submit-bar">
+  <div class="win-submit-bar__bar">
+    <div class="win-submit-bar__text" style="text-align: left;"><span>合计：</span><span class="win-submit-bar__price">¥<span class="win-submit-bar__price win-submit-bar__price--integer">1</span>.11</span></div><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`top slot 1`] = `
+<div class="win-submit-bar">top<div class="win-submit-bar__bar"><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button></div>
+</div>
+`;
+
+exports[`without price 1`] = `
+<div class="win-submit-bar">
+  <div class="win-submit-bar__bar"><button class="win-button win-button--danger win-button--normal win-button--round win-submit-bar__button win-submit-bar__button--danger">
+      <div class="win-button__content"></div>
+    </button></div>
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">
+      提示弹窗
+    </span></div>
+    </button> <button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">
+      提示弹窗（无标题）
+    </span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">
+      确认弹窗
+    </span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">
+      异步关闭
+    </span></div>
+    </button></div>
+  <div><button class="win-button win-button--primary win-button--normal">
+      <div class="win-button__content"><span class="win-button__text">
+      组件调用
+    </span></div>
+    </button>
+    <div role="dialog" aria-labelledby="标题" class="win-dialog" style="display: none;" name="win-dialog-bounce">
+      <div class="win-dialog__header">标题</div>
+      <div class="win-dialog__content"><img src="https://img.yzcdn.cn/vant/apple-3.jpg"></div>
+      <div class="win-hairline--top win-dialog__footer win-dialog__footer--buttons"><button class="win-button win-button--default win-button--large win-dialog__cancel">
+          <div class="win-button__content"><span class="win-button__text">取消</span></div>
+        </button><button class="win-button win-button--default win-button--large win-dialog__confirm win-hairline--left">
+          <div class="win-button__content"><span class="win-button__text">确认弹窗</span></div>
+        </button></div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error-icon prop 1`] = `
+<div class="win-image">
+  <div class="win-image__error"><i class="win-icon win-icon-error win-image__error-icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`lazy load 1`] = `
+<div class="win-image"><img class="win-image__img">
+  <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`lazy-load error event 1`] = `
+<div class="win-image">
+  <div class="win-image__error"><i class="win-icon win-icon-warning-o win-image__error-icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`lazy-load load event 1`] = `<div class="win-image"><img class="win-image__img"></div>`;
+
+exports[`load event 1`] = `<div class="win-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="win-image__img"></div>`;
+
+exports[`load event 2`] = `
+<div class="win-image"><img src="" class="win-image__img">
+  <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`loading-icon prop 1`] = `
+<div class="win-image"><img class="win-image__img">
+  <div class="win-image__loading"><i class="win-icon win-icon-success win-image__loading-icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`radius prop 1`] = `
+<div class="win-image" style="overflow: hidden; border-radius: 3px;"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="win-image__img">
+  <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+      <!----></i></div>
+</div>
+`;
+
+exports[`show-error prop 1`] = `<div class="win-image"></div>`;
+
+exports[`show-loading prop 1`] = `<div class="win-image"><img class="win-image__img"></div>`;

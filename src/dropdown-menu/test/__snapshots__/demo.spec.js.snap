@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-dropdown-menu">
+      <div class="win-dropdown-menu__bar">
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">全部商品</div></span></div>
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">默认排序</div></span></div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-menu">
+      <div class="win-dropdown-menu__bar">
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">全部商品</div></span></div>
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">筛选</div></span></div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-menu">
+      <div class="win-dropdown-menu__bar">
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">全部商品</div></span></div>
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title"><div class="win-ellipsis">默认排序</div></span></div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-menu">
+      <div class="win-dropdown-menu__bar">
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--down"><div class="win-ellipsis">全部商品</div></span></div>
+        <div role="button" tabindex="0" class="win-dropdown-menu__item"><span class="win-dropdown-menu__title win-dropdown-menu__title--down"><div class="win-ellipsis">默认排序</div></span></div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--up" style="bottom: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--up" style="bottom: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-dropdown-menu">
+      <div class="win-dropdown-menu__bar">
+        <div role="button" tabindex="-1" class="win-dropdown-menu__item win-dropdown-menu__item--disabled"><span class="win-dropdown-menu__title"><div class="win-ellipsis">全部商品</div></span></div>
+        <div role="button" tabindex="-1" class="win-dropdown-menu__item win-dropdown-menu__item--disabled"><span class="win-dropdown-menu__title"><div class="win-ellipsis">默认排序</div></span></div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+      <div>
+        <div class="win-dropdown-item win-dropdown-item--down" style="top: 0px; display: none;">
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

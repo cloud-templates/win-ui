@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-card">
+      <div class="win-card__header"><a class="win-card__thumb">
+          <div class="win-image" style="width: 100%; height: 100%;"><img src="https://img.yzcdn.cn/vant/ipad.jpeg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+        </a>
+        <div class="win-card__content">
+          <div>
+            <div class="win-card__title win-multi-ellipsis--l2">商品名称</div>
+            <div class="win-card__desc win-ellipsis">描述信息</div>
+          </div>
+          <div class="win-card__bottom">
+            <div class="win-card__price">
+              <div><span class="win-card__price-currency">¥</span><span class="win-card__price-integer">2</span>.<span class="win-card__price-decimal">00</span></div>
+            </div>
+            <div class="win-card__num">x2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-card">
+      <div class="win-card__header"><a class="win-card__thumb">
+          <div class="win-image" style="width: 100%; height: 100%;"><img src="https://img.yzcdn.cn/vant/ipad.jpeg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+          <div class="win-card__tag"><span class="win-tag win-tag--mark win-tag--danger">标签</span></div>
+        </a>
+        <div class="win-card__content">
+          <div>
+            <div class="win-card__title win-multi-ellipsis--l2">商品名称</div>
+            <div class="win-card__desc win-ellipsis">描述信息</div>
+          </div>
+          <div class="win-card__bottom">
+            <div class="win-card__price">
+              <div><span class="win-card__price-currency">¥</span><span class="win-card__price-integer">2</span>.<span class="win-card__price-decimal">00</span></div>
+            </div>
+            <div class="win-card__origin-price">¥ 10.00</div>
+            <div class="win-card__num">x2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-card">
+      <div class="win-card__header"><a class="win-card__thumb">
+          <div class="win-image" style="width: 100%; height: 100%;"><img src="https://img.yzcdn.cn/vant/ipad.jpeg" class="win-image__img" style="object-fit: cover;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+        </a>
+        <div class="win-card__content">
+          <div>
+            <div class="win-card__title win-multi-ellipsis--l2">商品名称</div>
+            <div class="win-card__desc win-ellipsis">描述信息</div>
+            <div><span class="win-tag win-tag--plain win-tag--danger win-hairline--surround" style="margin-right: 5px;">
+            标签
+          </span> <span class="win-tag win-tag--plain win-tag--danger win-hairline--surround">
+            标签
+          </span></div>
+          </div>
+          <div class="win-card__bottom">
+            <div class="win-card__price">
+              <div><span class="win-card__price-currency">¥</span><span class="win-card__price-integer">2</span>.<span class="win-card__price-decimal">00</span></div>
+            </div>
+            <div class="win-card__num">x2</div>
+          </div>
+        </div>
+      </div>
+      <div class="win-card__footer">
+        <div><button class="win-button win-button--default win-button--mini win-button--round">
+            <div class="win-button__content"><span class="win-button__text">
+            按钮
+          </span></div>
+          </button> <button class="win-button win-button--default win-button--mini win-button--round">
+            <div class="win-button__content"><span class="win-button__text">
+            按钮
+          </span></div>
+          </button></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

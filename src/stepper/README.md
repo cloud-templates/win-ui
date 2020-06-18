@@ -1,0 +1,141 @@
+# Stepper
+
+### Install
+
+```js
+import Vue from 'vue';
+import { Stepper } from 'win-ui';
+
+Vue.use(Stepper);
+```
+
+## Usage
+
+### Basic Usage
+
+```html
+<win-stepper v-model="value" />
+```
+
+```js
+export default {
+  data() {
+    return {
+      value: 1,
+    };
+  },
+};
+```
+
+### Step
+
+```html
+<win-stepper v-model="value" step="2" />
+```
+
+### Range
+
+```html
+<win-stepper v-model="value" min="5" max="8" />
+```
+
+### Integer
+
+```html
+<win-stepper v-model="value" integer />
+```
+
+### Disabled
+
+```html
+<win-stepper v-model="value" disabled />
+```
+
+### Disable Input
+
+```html
+<win-stepper v-model="value" disable-input />
+```
+
+### Decimal Length
+
+```html
+<win-stepper v-model="value" step="0.2" :decimal-length="1" />
+```
+
+### Custom Size
+
+```html
+<win-stepper v-model="value" input-width="40px" button-size="32px" />
+```
+
+### Async Change
+
+```html
+<win-stepper :value="value" async-change @change="onChange" />
+```
+
+```js
+import { Toast } from 'win-ui';
+
+export default {
+  data() {
+    return {
+      value: 1,
+    };
+  },
+  methods: {
+    onChange(value) {
+      Toast.loading({ forbidClick: true });
+
+      setTimeout(() => {
+        Toast.clear();
+        this.value = value;
+      }, 500);
+    },
+  },
+};
+```
+
+### Round Theme
+
+```html
+<win-stepper v-model="value" theme="round" button-size="22" disable-input />
+```
+
+## API
+
+### Props
+
+| Attribute | Description | Type | Default |
+| --- | --- | --- | --- |
+| v-model | Current value | _number \| string_ | - |
+| min | Min value | _number \| string_ | `1` |
+| max | Max value | _number \| string_ | - |
+| default-value | Default value, valid when v-model is empty | _number \| string_ | `1` |
+| step | Value change step | _number \| string_ | `1` |
+| name `v2.0.3` | Stepper name | _number \| string_ | - |
+| input-width | Input width | _number \| string_ | `32px` |
+| button-size `v2.0.5` | Button size | _number \| string_ | `28px` |
+| decimal-length `v2.2.1` | Decimal length | _number \| string_ | - |
+| theme `v2.8.2` | Theme, can be set to `round` | _string_ | - |
+| integer | Whether to allow only integers | _boolean_ | `false` |
+| disabled | Disable value change | _boolean_ | `false` |
+| disable-plus `v2.2.16` | Whether to disable plus button | _boolean_ | `false` |
+| disable-minus `v2.2.16` | Whether to disable minus button | _boolean_ | `false` |
+| disable-input | Whether to disable input | _boolean_ | `false` |
+| async-change | Whether to enable async change | _boolean_ | `false` | - |
+| show-plus `v2.1.2` | Whether to show plus button | _boolean_ | `true` |
+| show-minus `v2.1.2` | Whether to show minus button | _boolean_ | `true` |
+| long-press `v2.4.3` | Whether to allow long press | _boolean_ | `true` |
+
+### Events
+
+| Event | Description | Arguments |
+| --- | --- | --- |
+| change | Triggered when value change | _value: string, detail: { name: string }_ |
+| overlimit | Triggered when click disabled button | - |
+| plus | Triggered when click plus button | - |
+| minus | Triggered when click minus button | - |
+| focus | Triggered when input focused | _event: Event_ |
+| blur | Triggered when input blured | _event: Event_ |

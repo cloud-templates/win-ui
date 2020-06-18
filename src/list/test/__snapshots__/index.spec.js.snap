@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error slot 1`] = `
+<div role="feed" class="win-list">
+  <div class="win-list__error-text">Custom Error</div>
+  <div class="win-list__placeholder"></div>
+</div>
+`;
+
+exports[`finished slot 1`] = `
+<div role="feed" class="win-list">
+  <div class="win-list__finished-text">Custom Finished</div>
+  <div class="win-list__placeholder"></div>
+</div>
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-search">
+      <div class="win-search__content win-search__content--square">
+        <div class="win-cell win-cell--borderless win-field">
+          <div class="win-field__left-icon"><i class="win-icon win-icon-search">
+              <!----></i></div>
+          <div class="win-cell__value win-cell__value--alone win-field__value">
+            <div class="win-field__body"><input type="search" placeholder="请输入搜索关键词" class="win-field__control"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <form action="/">
+      <div class="win-search win-search--show-action">
+        <div class="win-search__content win-search__content--square">
+          <div class="win-cell win-cell--borderless win-field">
+            <div class="win-field__left-icon"><i class="win-icon win-icon-search">
+                <!----></i></div>
+            <div class="win-cell__value win-cell__value--alone win-field__value">
+              <div class="win-field__body"><input type="search" placeholder="请输入搜索关键词" class="win-field__control"></div>
+            </div>
+          </div>
+        </div>
+        <div role="button" tabindex="0" class="win-search__action">取消</div>
+      </div>
+    </form>
+  </div>
+  <div>
+    <div class="win-search">
+      <div class="win-search__content win-search__content--square">
+        <div class="win-cell win-cell--borderless win-field">
+          <div class="win-field__left-icon"><i class="win-icon win-icon-search">
+              <!----></i></div>
+          <div class="win-cell__value win-cell__value--alone win-field__value">
+            <div class="win-field__body"><input type="search" placeholder="请输入搜索关键词" class="win-field__control win-field__control--center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-search">
+      <div class="win-search__content win-search__content--square">
+        <div class="win-cell win-cell--borderless win-field">
+          <div class="win-field__left-icon"><i class="win-icon win-icon-search">
+              <!----></i></div>
+          <div class="win-cell__value win-cell__value--alone win-field__value">
+            <div class="win-field__body"><input type="search" disabled="disabled" placeholder="请输入搜索关键词" class="win-field__control"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-search" style="background: rgb(79, 192, 141);">
+      <div class="win-search__content win-search__content--round">
+        <div class="win-cell win-cell--borderless win-field">
+          <div class="win-field__left-icon"><i class="win-icon win-icon-search">
+              <!----></i></div>
+          <div class="win-cell__value win-cell__value--alone win-field__value">
+            <div class="win-field__body"><input type="search" placeholder="请输入搜索关键词" class="win-field__control"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-search win-search--show-action">
+      <div class="win-search__content win-search__content--square">
+        <div class="win-search__label">地址</div>
+        <div class="win-cell win-cell--borderless win-field">
+          <div class="win-field__left-icon"><i class="win-icon win-icon-search">
+              <!----></i></div>
+          <div class="win-cell__value win-cell__value--alone win-field__value">
+            <div class="win-field__body"><input type="search" placeholder="请输入搜索关键词" class="win-field__control"></div>
+          </div>
+        </div>
+      </div>
+      <div role="button" tabindex="0" class="win-search__action">
+        <div>搜索</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

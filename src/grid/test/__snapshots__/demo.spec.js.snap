@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="win-grid win-hairline--top">
+      <div class="win-grid-item" style="flex-basis: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid win-hairline--top">
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid">
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center">
+          <div class="win-image"><img src="https://img.yzcdn.cn/vant/apple-1.jpg" class="win-image__img" style="object-fit: contain;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center">
+          <div class="win-image"><img src="https://img.yzcdn.cn/vant/apple-2.jpg" class="win-image__img" style="object-fit: contain;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--center">
+          <div class="win-image"><img src="https://img.yzcdn.cn/vant/apple-3.jpg" class="win-image__img" style="object-fit: contain;">
+            <div class="win-image__loading"><i class="win-icon win-icon-photo-o win-image__loading-icon">
+                <!----></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid win-hairline--top">
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item win-grid-item--square" style="flex-basis: 25%; padding-top: 25%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--square win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid" style="padding-left: 10px;">
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;">
+        <div class="win-grid-item__content win-grid-item__content--center win-grid-item__content--surround win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid win-hairline--top">
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--horizontal win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--horizontal win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 33.333333333333336%;">
+        <div class="win-grid-item__content win-grid-item__content--horizontal win-grid-item__content--center win-hairline"><i class="win-icon win-icon-photo-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">文字</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid win-hairline--top">
+      <div class="win-grid-item" style="flex-basis: 50%;">
+        <div role="button" tabindex="0" class="win-grid-item__content win-grid-item__content--center win-grid-item__content--clickable win-hairline"><i class="win-icon win-icon-home-o win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">路由跳转</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 50%;">
+        <div role="button" tabindex="0" class="win-grid-item__content win-grid-item__content--center win-grid-item__content--clickable win-hairline"><i class="win-icon win-icon-search win-grid-item__icon">
+            <!----></i><span class="win-grid-item__text">URL 跳转</span></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="win-grid win-hairline--top">
+      <div class="win-grid-item" style="flex-basis: 50%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-home-o win-grid-item__icon">
+            <div class="win-info win-info--dot"></div>
+          </i><span class="win-grid-item__text">文字</span></div>
+      </div>
+      <div class="win-grid-item" style="flex-basis: 50%;">
+        <div class="win-grid-item__content win-grid-item__content--center win-hairline"><i class="win-icon win-icon-search win-grid-item__icon">
+            <div class="win-info">99+</div>
+          </i><span class="win-grid-item__text">文字</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
